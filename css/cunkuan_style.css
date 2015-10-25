@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+img .rate_table { float:right; width:178px;}
+.huoqi_content1{ background-color:#1174d2; height:287px;}
+.huoqi_bar { height:118px; padding:12px 0 0 47px; background-color:#1174d2;}
+.huoqi_bar img,.result1,.result2{float:left;}
+.result1,.result2 { height:105px; width:312px; padding-left:47px; background-color:#1174d2;}
+.result1 p,.result2 p { background-color:#1174d2; font-size:26px; color:#fff;}
+.result1 input,.result2 input {
+	background-color:#1174d2; 
+	font-size:60px; 
+	color:#fff;
+	border:0;
+	width:300px;	
+}
+.result1 { border-right:1px #0664c6 solid;}
+
+
+.huoqi_content2{
+	background-color:#e8f3f7; 
+	height:50px; 
+	border-bottom:1px solid #dbe0e4;
+	color:#3a78b1;
+	font-size:30px;
+	padding:17px 0 0 20px;
+}
+.huoqi_content2 input,.huoqi_content2 span { 
+	color:#f96704;
+	border:0;
+	width:100px;
+	font-size:30px;
+	background-color:#e8f3f7;
+}
+.huoqi_content2 span { float:right; margin:0 10px 0 0;}
+.huoqi_content3{ background-color:#fff; height:auto;}
+.huoqi_content3 li { 
+	border-bottom:1px solid #dbe0e4; 
+	height:69px; 
+	padding-top:30px;
+	margin-left:32px;
+	font-size:36px;
+}
+.huoqi_content3 li input {
+	float:right; 
+	margin-right:30px; 
+	height:36px; 
+	width:185px; 
+	border:0;
+	font-size:24px;
+	color:#979797;
+	background-image:url(../../wwl_study_homework/%E6%B1%87%E7%8E%87%E6%8D%A2%E7%AE%97%E5%99%A8/imges/reset_button.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.huoqi_content3 li span { font-size:24px; color:#979797; float:right; margin:8px 35px 0 0;}
+

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>汇率换算</title>
+<link href="css/tools_style.css" type="text/css" rel="stylesheet">
+<script src="js/huilv.js"></script>
+</head>
+
+<body>
+<div class="tools_index">
+        <div class="tools_bar">
+            <a href="toolkits.html">
+            	<img src="images/returns_arrow.jpg" />
+            </a>
+            <h2>汇率换算</h2>
+        </div>
+        <div class="tools_content">
+            <ul>
+                <li class="usd">
+                	<input type="text" id='usd_txt' class="usd_txt" placeholder="请输入数字" onkeyup="ex_rate('usd','rmb',this.value)" />
+                </li> 
+                <li class="rmb">
+                	<input type="text" id='rmb_txt' class="rmb_txt" placeholder="请输入数字" onkeyup="ex_rate('rmb','usd',this.value)" />
+                </li>
+            </ul>
+        </div>
+        <div class="under_text">
+        	1美元 = 6.3551人民币,更新于2015-10-16
+        </div>
+	</div>
+</body>
+</html>

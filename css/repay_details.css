@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.result1 { height:105px; width:156px; padding-left: 23px; font-size:28px;}
+
+.result1 input { font-size:30px; width:156px; padding-top:20px;}
+
+.table_list,.table_title,.repay_year td{ color:#266bac; height:58px; font-size:24px;}
+
+.table_list td {font-size:24px; color:#266bac;}
+
+.repay_det1 th,.repay_det1 td{ width:170px; padding-left:5px; text-align:left; border-bottom:1px solid #dcdcdc;}
+.repay_year td { background-color:#e8f3f7;}
+

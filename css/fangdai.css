@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fangdai_cont1 {background-color:#1174d2; height:350px;}
+.result1 p,.result2 p{ font-size:24px;}
+.result1 input,.result2 input { font-size:40px;}
+.huoqi_content2 { text-align:center;}
+.huoqi_content2 a { text-decoration:none; color:#3a78b1;}

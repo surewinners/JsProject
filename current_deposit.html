@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>活期页面</title>
+<link href="css/tools_style.css"type="text/css" rel="stylesheet">
+<link href="css/cunkuan_style.css" type="text/css" rel="stylesheet">
+<script src="js/huoqi.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="tools_index">
+        <div class="tools_bar">
+            <a href="toolkits.html">
+            	<img src="images/returns_arrow.jpg"/>
+            </a>
+            <h2>存款计算</h2>
+            <a href="interest_table.html">
+            	<img class="rate_table" src="images/rate_1.jpg" />
+            </a>
+        </div>
+        <div class="huoqi_content1">
+        	<div class="huoqi_bar">
+            	<img src="images/cunkuan_bar.jpg"/>
+            	<a href="fixed_deposit.html">
+                	<img src="images/cunkuan_bar2.jpg"/>
+                </a>
+            </div>
+			<div class="result1">
+            	<p>利息（元）</p>
+                <input type="text" id="lv_val" value="0" />
+            </div>
+            <div class="result2">
+            	<p>本息合计（元）</p>
+                <input type="text" id="sum_val" value="0" />
+            </div>
+        </div>
+        <div class="huoqi_content2">
+        同等本金，余额宝预估收益为<input type="text" id="yue_val" value="0" readonly>元
+        <a href="#"><span>转入&nbsp;&gt;</span></a>
+        </div>
+        <div class="huoqi_content3">
+        	<ul>
+            	<li>存款总额（元）
+                	<input type="text" id="deposit_sum" placeholder="输入存款金额" onkeyup="huoqi()" value="0" />
+                </li>
+            	<li>存款期限（天）
+                	<input type="text" id="deposit_days" placeholder="输入存款天数" onkeyup="huoqi()" value="0" />
+                </li>
+            	<li>年利率（%）
+                	<a href="current_rate.html"><span>0.36&nbsp;&gt;</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="under_text">
+        	以上为央行2015年最新公布的存款基准利率
+        </div>
+	</div>
+</body>
+</html>

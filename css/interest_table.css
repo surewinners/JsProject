@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*定期存款利率表*/
+.interest_table { width:666px; height:648px; margin:27px 0 0 27px;}
+.table_title{ height:80px; background-color:#1174d2;}
+.table_title th {width:333px;   font-size: 26px; color: #fff;}
+.table_title { border:1px #2b69a4 solid;}
+.interest_table td { 
+	font-size:28px;  
+	width:333px; 
+	border-bottom:1px #dcdcdc solid;  
+	height:80px;
+	text-align:center;
+}
+.tb_title_ltd { border-right:1px #dcdcdc solid;}
+
+
+/*活期利率表*/
+.curren_rate { width:620px; height:335px; background-color:#f5f5f5; margin:0 auto; padding:0;}
+.curren_rate h3 { 
+	font-size:58px; 
+	color:#3bb2da; 
+	padding:40px 0 0 35px;
+	margin:0; 
+	height:95px; 
+	border-bottom:3px #3bb2da solid;
+}
+.curren_rate1 span { font-size:42px; padding:30px 0 0 35px; margin:0; float:left; width:500px;}
+.curren_rate1 input { float:right; margin: 42px 18px 0 50px;}
+
+/*定期期限*/
+.curren_rate1_1 {width:620px; height:650px; background-color:#f5f5f5; margin:0 auto; padding:0;}
+.curren_rate1_1 h3 { 
+	font-size:58px; 
+	color:#3bb2da; 
+	padding:40px 0 0 35px;
+	margin:0; 
+	height:95px; 
+	border-bottom:3px #3bb2da solid;
+}
+
+
+
+
